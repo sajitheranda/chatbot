@@ -1,0 +1,24 @@
+.typing_box{
+    text-align: center;
+    padding:5%
+}
+
+.titletyping{
+    font-size: 50px;
+    font-weight: 900;
+    /* background: linear-gradient(to right, rgb(184, 47, 6), rgb(207, 92, 10));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: rgb(212, 113, 20);
+}
+
+.bodytyping{
+    padding: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+}
+
+
