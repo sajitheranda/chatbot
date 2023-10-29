@@ -122,11 +122,8 @@ export default function Chat() {
             
                 <div className="card" style={stylecard}>
                     <div className="cardHeader text-white" style={styleHeader}>
-                        <h2 style={{marginBottom:'0px'}}>Chat</h2>
-                        {botTyping ? <h6>Bot Typing....</h6> : null}
-                        
-                        
-                        
+                        <h2 style={{marginTop:'0px'}}>Chat</h2>
+                        {botTyping ? <h6 >Bot Typing....</h6> : null}    
                     </div>
                     <div className="cardBody" id="messageArea" style={styleBody}>
                         
@@ -158,7 +155,7 @@ export default function Chat() {
                         <div className="row">
                             <form style={{display: 'flex'}} onSubmit={handleSubmit}>
                                 <div className="col-40" style={{paddingRight:'20px',flex:'7'}}>
-                                    <input onChange={e => setInputMessage(e.target.value)} value={inputMessage} type="text" className="msginp" style={{paddingLeft:'20px'}}></input>
+                                    <input onChange={e => setInputMessage(e.target.value)} value={inputMessage} type="text" className="msginp" style={{paddingLeft:'20px',fontSize: '20px'}}></input>
                                 </div>
                                 <div className="col-2 cola"  style={{flex:'1'}}>
                                     <button type="submit" className="circleBtn" ><IoMdSend className="sendBtn" /></button>

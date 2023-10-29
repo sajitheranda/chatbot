@@ -1,12 +1,12 @@
 .header{
     position: fixed;
-    height: 50px;
+    height: 70px;
     width: 100%;
     transition: .3s ease-in;
     overflow: hidden;
     background-color: rgb(81, 2, 2);
     display: flex;
-    font-size: 16px;
+    font-size: 25px;
     color: aliceblue;
 }
 
@@ -20,19 +20,20 @@
 .section:hover{
     background-color: rgb(124, 33, 6);
     padding: 20px;
-    font-size:20px;
+    font-size:30px;
 }
 
 
 .navleft{
     flex:1;
-    padding: 5px;
+    padding: 15px;
+
 }
 
 .navmiddle{
     flex:5;
-    font-size: 30px;
-    padding: 5px;
+    font-size: 40px;
+    padding: 10px;
     color: rgb(198, 131, 8);
 }
 
@@ -52,6 +53,12 @@
     width:30px ;
     height: auto;
     display:inline
+}
+.spanner{
+    align-items:center;
+    text-align: center;
+    display: flex;
+    padding: 5%;
 }
 
 

@@ -2,6 +2,9 @@ import React from 'react'
 import './navigationbar.css'
 import {Link} from 'react-scroll'
 import myImage from './bank.jpg'
+import {AiOutlineHome} from 'react-icons/ai'
+import {BiDetail} from 'react-icons/bi'
+import {BsChatText} from 'react-icons/bs'
 
 export default function Navigationbar() {
     // const [click, setClick] = useState(false)
@@ -22,13 +25,13 @@ export default function Navigationbar() {
         </div>
           <div className="navright">
               <span classname="spanner">
-                  <Link to='home'  activeClass="active" spy={true} smooth={true} offset={50} duration={500}  className='section'  >Home</Link>
+                  <Link to='home'  activeClass="active" spy={true} smooth={true} offset={50} duration={500}  className='section' ><AiOutlineHome/>{' '}Home</Link>
               </span>
               <span classname="spanner">
-                  <Link to='detail'  activeClass="active" spy={true} smooth={true} offset={50} duration={500} className='section' >Detail</Link>
+                  <Link to='detail'  activeClass="active" spy={true} smooth={true} offset={50} duration={500} className='section' ><BiDetail/>{' '}Detail</Link>
               </span>
               <span classname="spanner">
-                  <Link to='chat'  activeClass="active" spy={true} smooth={true} offset={50} duration={500} className='section' >Chat</Link>
+                  <Link to='chat'  activeClass="active" spy={true} smooth={true} offset={50} duration={500} className='section' ><BsChatText/>{' '}Chat</Link>
               </span>
           </div>   
         </div>
